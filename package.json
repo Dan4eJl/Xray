@@ -2,7 +2,7 @@
   "name": "xray",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "serve": "parcel index.html"
   },
@@ -11,13 +11,17 @@
     "url": "git+https://github.com/Dan4eJl/Xray.git"
   },
   "keywords": [],
-  "author": "RubtsovKukisheva",
+  "author": "Rubtsov&Kukisheva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dan4eJl/Xray/issues"
   },
   "homepage": "https://github.com/Dan4eJl/Xray#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
   "dependencies": {
-    "parcel": "^2.8.3"
+    "firebase": "^9.16.0"
   }
 }
